@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email and Password validation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+
+
+      <h2>Email & Password validation form</h2>
+
+
+      <form id="frm">
+
+        <label for="email">enter your email:</label>
+
+        <input
+          type="text"
+          id="email"
+          name="email"
+          placeholder="example@gmail.com"
+        />
+        <small id="emailerror"></small>
+
+        <br /><br />
+
+        <label for="password">password:</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="e.g:abc$153@"
+        />
+
+        <small id="passerror"></small>
+
+        <br /><br />
+
+        <button>submit</button>
+
+      </form>
+
+      <div class="resultmassg"></div>
+
+
+    </div>
+
+    
+    <script src="script.js"></script>
+  </body>
+</html>
